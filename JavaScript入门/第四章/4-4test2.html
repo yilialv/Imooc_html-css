@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>screen</title>
+        <style type="text/css">
+            
+        </style>
+    </head>
+    <body>
+        <input type="button" value="当前显示屏幕宽度">
+        <input type="button" value="当前显示屏幕高度">
+        <input type="button" value="当前窗口文档显示宽度">
+        <input type="button" value="当前窗口文档显示高度">      
+    </body>
+     <script type="text/javascript">
+        //补充代码
+        var b1 = document.getElementsByTagName("input")[0];
+        var b2 = document.getElementsByTagName("input")[1];
+        var b3 = document.getElementsByTagName("input")[2];
+        var b4 = document.getElementsByTagName("input")[3];
+
+        b1.addEventListener("click",function(){
+            alert("当前显示屏幕宽度"+screen.availWidth);
+        })
+
+        b2.addEventListener("click",function(){
+            alert("当前显示屏幕高度"+screen.availHeight);
+        })
+
+        b3.addEventListener("click",function(){
+            alert("当前窗口文档显示宽度"+innerWidth);
+        })
+
+        b4.addEventListener("click",function(){
+            alert("当前窗口文档显示高度"+innerHeight);
+        })
+     </script>
+</html>

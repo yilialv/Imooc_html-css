@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js函数</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/**
+		函数是由时间驱动的或者当它被调用时执行的可 重复使用的代码块
+		function a(参数){}  声明会前置
+		var a = function(参数){}  匿名函数
+		函数中的return
+		**/
+
+		// function a(){
+		// 	console.log(111);
+		// 	console.log(222);
+		// 	console.log(333);
+		// 	console.log(444);
+		// 	console.log(555);
+		// 	console.log(666);
+		// }
+		// a();
+		// a();
+
+		b(123,456);
+		function b(ch1, ch2){
+			console.log(ch1, ch2);
+		}
+
+		var c = function(cs1,cs2,cs3) {
+			console.log(cs1, cs2, cs3);
+		}
+		c(1,2,3);
+
+		function d(){
+			return "this is return function";
+		}
+		var d1 = d();
+		console.log("this is a d1:",d1);
+		
+	</script>
+</body>
+</html>

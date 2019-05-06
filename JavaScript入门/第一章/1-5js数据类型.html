@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>js数据类型</title>
+</head>
+<body>
+	<script type="text/javascript">
+		/*
+		字符串(String)
+		數字(Number)
+		布尔(Boolean)
+		数组(Array)
+		对象(Object)
+		空(Null)
+		未定义(Undefined)
+		*/
+
+		// var可以声明各种类型
+		var x;             // x为undefined
+		var y = 5;         // y为数字
+		var z = "John";    // z为字符串
+
+		// 字符串
+		var carname = "Volvo XC60";
+		var carname = "Volvo XC60";
+
+		// 数字
+		var x1 = 34.00;
+		var x2 = 34;
+
+		//布尔
+		var x=true;
+		var y=false;
+
+		//数组
+		var cars= new Array();
+		cars[0] = "Saab";
+		cars[1] = "la";
+
+		var cars = new Array("a","b","c");
+
+		var  cars = ["a","b","c"];
+
+		//对象 键值对
+		var person = {fisrname:"John",lastname:"Doe",id:5566};
+		//取值
+		person.fisrname
+		person["fisrname"]
+		//输出查看效果
+		console.log(person.fisrname)
+		console.log(person["fisrname"])
+
+		// Undifined 和 Null
+		// Undifined这个值表示变量不含值
+		// 可以通过将变量的值设置为Null来清空变量
+		var persons;
+		var car="lalala";
+		car=null;
+	</script>
+</body>
+</html>

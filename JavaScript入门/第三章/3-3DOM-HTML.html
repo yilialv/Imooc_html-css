@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>DOM html</title>
+</head>
+<body>
+	<div id="main" data="nihao">123</div>
+	<img id="image" src="1.jpg" alt=""/>
+	<a id="gourl" href="">掉到百度</a>
+	<script type="text/javascript">
+		var main = document.getElementById("main");
+		main.innerHTML = 'helloworld';
+
+		main.setAttribute("data","buhao");
+		alert(main.getAttribute("data"));
+		main.setAttribute("dd","ddname");
+
+		var image = document.getElementById("image");
+		image.src = "2.jpg";
+
+		var goUrl = document.getElementById("gourl");
+		goUrl.href = "http://www.baidu.com";
+	</script>
+</body>
+</html>

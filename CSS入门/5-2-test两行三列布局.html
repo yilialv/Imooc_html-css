@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title></title>
+  <style type="text/css">
+    /*此处写代码*/
+    html, body {
+        margin:0;
+    }
+    header {
+        background-color: black;
+    }
+    nav {
+      background-color: lightblue;
+    }
+    aside {
+      background-color: lightblue;
+    }
+    article {
+      background-color: black;
+    }
+    img {
+      vertical-align: middle;
+    }
+    .d1 a {
+      color: white;
+      text-decoration: none;
+      padding: 25px;
+      vertical-align: center;
+      height: 100px;
+      line-height: 100px;
+    }
+    .d1 {
+      float: right;
+    }
+    .d2 {
+      background-color: lightblue;
+      height: 450px;
+      width: 100%;
+    }
+    nav {
+      height: 100%;
+      width: 33%;
+      float: left;
+    }
+    aside {
+      height: 100%;
+      width: 33%;
+      float: right;
+      border-left: 5px solid orange;
+    }
+    article {
+      background-color: lightblue;
+      height: 100%;
+    }
+    .d5 {
+      height: 90px;
+      background-color: black;
+      text-align: center;
+    }
+    .d5 a {
+      color: white;
+      text-decoration: none;
+      padding: 25px;
+      vertical-align: middle;
+      text-align: center;
+      height: 90px;
+      line-height: 90px;
+    }
+    .d3 {
+      
+    }
+    table {
+      margin: 0 auto;    
+    }
+    a {
+      color: black;
+      text-decoration: none;
+    }
+    .p1 {
+      background-color: lightcoral;
+      margin: 0;
+      margin: 10px;
+    }
+    .p {
+      margin-top: 4em;
+    }
+    form {
+      text-align: center;
+    }
+    button {
+      background-color: red;
+      color: white;
+      width: 250px;
+      height: 40px;
+      margin: 5px;
+    }
+    input {
+      width: 250px;
+      height: 40px;
+      margin: 10px;
+    }
+    a:hover {
+      color: lightcoral;
+    }
+  </style>
+</head>
+<body>
+  <!-- 此处写代码 -->
+  <header>
+    <img alt="imooclogo" src="http://climg.mukewang.com/59093e9c00016ce303000100.png"/>
+    <div class="d1">
+      <a href="#">课程</a>
+      <a href="#">职业路径</a>
+      <a href="#">实战</a>
+      <a href="#">猿问</a>
+      <a href="#">手记</a>
+    </div>
+  </header>
+  <div class="d2">
+      <nav>
+        <div class="d3">
+          <table>
+            <tr>
+              <th><p class="p">课程推荐</p></th>
+            </tr>
+            <tr>
+              <td><p class="p1">职业路径</p></td>
+              <td><a href="#">HTML5与CSS3实现动态网页</a></td>
+            </tr>
+            <tr>
+              <td><p class="p1">职业路径</p></td>
+              <td><a href="#">零基础入门Android语法与界面</a></td>
+            </tr>
+            <tr>
+              <td><P class="p1">职业路径</P></td>
+              <td><a href="#">iOS基础语法与常用控件</a></td>
+            </tr>
+            <tr>
+              <td><P class="p1">职业路径</P></td>
+              <td><a href="#">PHP入门开发</a></td>
+            </tr>
+            <tr>
+              <td><P class="p1">职业路径</P></td>
+              <td><a href="#">JAVA入门开发</a></td>
+            </tr>
+          </table>
+        </div>
+      </nav>
+      <aside>
+        <div class="d4">
+          <table>
+            <tr>
+              <th><p class="p">登录</p></th>
+            </tr>
+          </table>
+        <form>
+          <input type="text" name="id" placeholder="请输入登录邮箱/手机号">
+          <br>
+          <input type="password" name="password" placeholder="6-16位密码，区分大小写，不能用空格">
+          <br>
+          <button type="submit">登录</button>
+        </form>
+        </div>
+      </aside>
+      <article>
+          <table>
+            <tr>
+              <th><p class="p">相关课程</p></th>
+            </tr>
+            <tr>
+              <td><a href="#">HTML</a></td>
+              <td><a href="#">CSS</a></td>
+              <td><a href="#">JavaScript</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">HTML5</a></td>
+              <td><a href="#">CSS5</a></td>
+              <td><a href="#">Jquery</a></td>
+            </tr>
+            <tr>
+              <td><a href="#">移动端基础</a></td>
+              <td><a href="#">移动端APP开发</a></td>
+            </tr>
+          </table>
+      </article>
+  </div>
+  <footer>
+    <div class="d5">
+      <a href="#">网站首页</a>
+      <a href="#">企业合作</a>
+      <a href="#">人才招聘</a>
+      <a href="#">联系我们</a>
+      <a href="#">常见问题</a>
+      <a href="#">友情链接</a>
+    </div>
+  </footer>
+</body>
+</html>
